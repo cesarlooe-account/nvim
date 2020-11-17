@@ -1,0 +1,37 @@
+{
+  //"html.format.wrapLineLength": 0,
+  //"html.enable": false,
+  //"html.format.enable": false,
+  //"prettier.formatterPriority": -1
+
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+
+  // Diagnostic
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+
+  // Prettier
+  "prettier.printWidth": 240,
+
+  // Autoformateo al guardar
+  "coc.preferences.formatOnSaveFiletypes": ["css", "scss", "markdown", "javascript", "graphql", "html", "yaml", "json", "python", "java"],
+
+  // Code Lens
+  "codeLens.enable": true,
+
+  // Explorer
+  "explorer.width": 60,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.icon.enableVimDevicons": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
+}
